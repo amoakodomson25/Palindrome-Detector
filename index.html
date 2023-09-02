@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+    <title>Palindrome Detector</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">Palindrome Detector</div>
+      <div class="list"></div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <h2>Palindrome Checker</h2>
+        <div class="input">
+          <input
+            type="text"
+            id="checkWord"
+            name="word"
+            placeholder="Type your word..."
+            required
+          />
+          <button onclick="Palindrome.check()">Check!</button>
+        </div>
+        <div class="output">
+          <span class="word" id="wordChecked"></span>
+          <span id="output"></span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="flex-wrapper">
+        <a href="" style="text-decoration: underline">Other Projects</a>
+      </div>
+      <br />
+      <div class="flex-wrapper">
+        <p>&COPY; Amoako Domson Wahab</p>
+      </div>
+    </footer>
+  </body>
+</html>
