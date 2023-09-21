@@ -1,5 +1,7 @@
 # Palindrome-Detector
 
+Demo: https://wad-palindrome-detector.netlify.app/
+
 Simple Web app built with HTML5, CSS & JS.
 
 Features
